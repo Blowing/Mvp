@@ -15,7 +15,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
-
     <Button
         android:id="@+id/btn_next"
         android:layout_width="wrap_content"
@@ -23,4 +22,11 @@
         android:text="点击跳转"
         android:layout_below="@+id/number"
         android:layout_centerHorizontal="true" />
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
 </LinearLayout>

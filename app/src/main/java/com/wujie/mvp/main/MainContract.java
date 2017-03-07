@@ -13,5 +13,6 @@ public interface MainContract {
 
     interface View extends BaseView<Presenter> {
         void showNumber(int number);
+
     }
 }
